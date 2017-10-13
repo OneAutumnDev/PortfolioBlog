@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    
+}
+
+@media only screen and (min-width: 401px) and (max-width: 720px) {
+
+}
+
+@media only screen and (min-width: 720px) and (max-width:1200px) {
+
+}
+
+@media only screen and (min-width: 1201px) {
+    .outerContainer {
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 2.5% auto 2.5% 0;
+        height: 95%;
+        width: 85%;
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Sunrise_Over_Denver_Skyline.jpg/541px-Sunrise_Over_Denver_Skyline.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 20%;
+        min-height: 100%;
+        border-right: 2px solid white;
+        /*box-shadow: 5px 0px 5px 0px grey;*/
+    }
+    
+    .inner:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+    }
+}
